@@ -18,7 +18,7 @@ const logMsg = (msg: string) => {
 //cd callback function
 function performJob(cb: (msg: string) => void) {
   // ...
-  cb('Job done!');
+  cb("Job done!");
 }
 
 performJob(log);
@@ -30,12 +30,12 @@ type User = {
 };
 
 let user: User = {
-  name: 'Max',
+  name: "Max",
   age: 39,
   greet() {
-    console.log('Hello there!');
+    console.log("Hello there!");
     return this.name;
-  }
-}
+  },
+};
 
 user.greet();
