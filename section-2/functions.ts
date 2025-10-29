@@ -15,6 +15,7 @@ const logMsg = (msg: string) => {
   console.log(msg);
 };
 
+//cd callback function
 function performJob(cb: (msg: string) => void) {
   // ...
   cb('Job done!');
